@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header {
+    background: #004aad;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar a, .cta {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.hero {
+    background: url('codecity_bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-primary {
+    display: inline-block;
+    background: #ffc107;
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.programs, .testimonials, .pricing {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.programs .program-cards, .pricing .pricing-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.testimonials .testimonial-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    background: #004aad;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
